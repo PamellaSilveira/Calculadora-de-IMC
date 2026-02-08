@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador -IMC</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <div class="img">
+
+        <img src="../img/foto.png">
+
+    </div>
+    <div class="container">
+
+
+        <header>
+            <h1>Calculadora - IMC</h1>
+        </header>
+
+        <div class="inputs-peso">
+            <label for="peso">Peso em kg</label>
+
+            <div class="input-icon">
+                <input type="number" id="peso" name="peso" placeholder="50.5">
+                <img src="../img/kg.png" alt="Kg" class="icon">
+            </div>
+        </div>
+
+        <div class="altura">
+            <label for="altura">Altura em metros</label>
+
+            <div class="input-icon">
+                <input type="number" id="altura" name="altura" step="0.01" placeholder="Ex: 1.65">
+                <img src="../img/regua.png" alt="Altura" class="icon">
+            </div>
+        </div>
+
+        <button class="btn">Calcular</button>
+
+         <p id="resultado"></p>
+
+        <script src='../js/script.js'></script>
+
+        
+
+    </div>
+</body>
+
+</html>
