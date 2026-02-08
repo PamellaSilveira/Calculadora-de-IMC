@@ -41,8 +41,10 @@ projeto-imc/
     ├── foto.png
     ├── kg.png
     └── regua.png
-<img width="1228" height="580" alt="Captura de tela 2026-02-08 012011" src="https://github.com/user-attachments/assets/ac9ec8ef-98a7-4eb3-a4b1-66fe97c540c1" />
 
+## 📸 Preview do Projeto
+
+![Preview da Calculadora de IMC](assets/preview.png)
 
 
 👩‍💻 Autora
